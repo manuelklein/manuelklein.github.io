@@ -9,7 +9,7 @@
     <body>
         <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
             <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
-            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: blue' geometry='primitive: box'></a-entity>
+            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
             <a-text value="This content will always face you." look-at="[gps-new-camera]" gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="10 10 10" anchor="center" align="center"></a-text>
         </a-scene>
     </body>
