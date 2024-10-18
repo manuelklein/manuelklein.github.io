@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>AR.js A-Frame Location-based</title>
-<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
-<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
-</head>
-<body>
-<a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
-    <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
-    <a-entity material='color: blue' geometry='primitive: box' gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1"></a-entity>
-    <a-text value="This content will always face you." look-at="[gps-new-camera]" scale="5 5 5" gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" anchor="center" align="center" ></a-text>
-</a-scene>
-</body>
-</html>
-    
-    <!--body>
+    <head>
+        <title>AR for Ines</title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+    </head>
+    <body>
         <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
-            <a-camera gps-new-camera='gpsMinDistance: .1' look-controls rotation far="500"></a-camera>
-            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5417" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
-            <a-text   gps-new-entity-place="latitude: 50.109037; longitude: 8.5417" scale="5 5 5" anchor="center" align="center" look-at="[gps-new-camera]" value="Goethe Universitaet\nMatth. 2, 1-12"></a-text>
+            <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
+            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: blue' geometry='primitive: box'></a-entity>
+            <a-text gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="10 10 10" look-at="[gps-new-camera]" anchor="center" align="center" value="This content will always face you."></a-text>
         </a-scene>
-</body-->
+    </body>
+</html>
