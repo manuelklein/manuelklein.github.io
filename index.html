@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AR.js A-Frame Location-based</title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+    </head>
+    <body>
+        <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
+            <a-camera gps-new-camera='gpsMinDistance: 5' rotation-reader far="150"></a-camera>
+            <!--a-entity gps-new-entity-place="latitude: 48.872308; longitude: 8.638500" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity-->
+            <a-text   gps-new-entity-place="latitude: 48.870983; longitude: 8.636903" scale="5 5 5" anchor="center" align="center" look-at="[gps-new-camera]" value="Geht zur\nSchwarzwaldhalle."></a-text>
+            <a-text   gps-new-entity-place="latitude: 48.873556; longitude: 8.637166" scale="15 15 15" anchor="center" align="center" look-at="[gps-new-camera]" value="Geht zur\nKreuzstrasse 80."></a-text>
+            <a-text   gps-new-entity-place="latitude: 48.876201; longitude: 8.634266" scale="15 15 15" anchor="center" align="center" look-at="[gps-new-camera]" value="Geht zu\nKramski Putter."></a-text>
+            <a-text   gps-new-entity-place="latitude: 48.875213; longitude: 8.638603" scale="15 15 15" anchor="center" align="center" look-at="[gps-new-camera]" value="Geht zum\nKirchweg 27."></a-text>
+            <a-text   gps-new-entity-place="latitude: 48.872308; longitude: 8.638503" scale="5 5 5" anchor="center" align="center" look-at="[gps-new-camera]" value="Schaut in die\nTruestory-Kiste."></a-text>
+            <a-text   gps-new-entity-place="latitude: 50.1090084; longitude: 8.5391741" scale="5 5 5" anchor="center" align="center" look-at="[gps-new-camera]" value="Goethe Universität\nMatthäus 2, 1-12"></a-text>
+        </a-scene>
+    </body>
+</html>
