@@ -9,9 +9,19 @@
     <body>
         <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
             <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
+            <!-- Test bei Ines -->
             <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
             <a-text gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="10 10 10" look-at="[gps-new-camera]" value="Hier wohnt\nInes Weinzierl." anchor="center" align="center"></a-text>
-            <a-text gps-new-entity-place="latitude: 50.1325731; longitude: 8.4572508" scale="10 10 10" look-at="[gps-new-camera]" value="Hier wohnen\nKarola und Gerhard." anchor="center" align="center"></a-text>
+            <!-- Test bei Manuel -->
+            <a-entity gps-new-entity-place="latitude: 48.870083; longitude: 8.643382" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
+            <a-text gps-new-entity-place="latitude: 48.870083; longitude: 8.643382" scale="10 10 10" look-at="[gps-new-camera]" value="Hier wohnt\nManuel Klein." anchor="center" align="center"></a-text>
+            <!-- Waldweihnacht 2024 -->
+            <a-text gps-new-entity-place="latitude: 50.127613; longitude: 8.674876" scale="10 10 10" look-at="[gps-new-camera]" value='(S)\nMatthäus 2,1-2\nSucht "Kita"!' anchor="center" align="center"></a-text>
+            <a-text gps-new-entity-place="latitude: 50.127007; longitude: 8.670531" scale="10 10 10" look-at="[gps-new-camera]" value='(T)\nMatthäus 2,3-4\nSucht "Knowledge"!' anchor="center" align="center"></a-text>
+            <a-text gps-new-entity-place="latitude: 50.127700; longitude: 8.666774" scale="10 10 10" look-at="[gps-new-camera]" value='(A)\nMatthäus 2,5-8\nSucht "Kleinkind"!' anchor="center" align="center"></a-text>
+            <a-text gps-new-entity-place="latitude: 50.125325; longitude: 8.662573" scale="10 10 10" look-at="[gps-new-camera]" value='(L)\nMatthäus 2,9-12\nSucht "Josef Stern"!' anchor="center" align="center"></a-text>
+            <a-text gps-new-entity-place="latitude: 50.123572; longitude: 8.667608" scale="10 10 10" look-at="[gps-new-camera]" value='(L)\nPhilipper 2,6-11\nZur City Church!' anchor="center" align="center"></a-text>
+            <a-text gps-new-entity-place="latitude: 50.130062; longitude: 8.675568" scale="10 10 10" look-at="[gps-new-camera]" value='Bonus\nMatthäus 2,13-15' anchor="center" align="center"></a-text>
         </a-scene>
     </body>
 </html>
