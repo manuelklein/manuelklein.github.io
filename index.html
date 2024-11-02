@@ -10,8 +10,8 @@
         <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
             <a-camera gps-new-camera='gpsMinDistance: 5' rotation-reader></a-camera>
             <!-- Test bei Ines -->
-            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
-            <a-text gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="10 10 10" look-at="[gps-new-camera]" value="Hier wohnt\nInes Weinzierl." anchor="center" align="center"></a-text>
+            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: blue' geometry='primitive: box'></a-entity>
+            <a-text gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="10 10 10" rotation="0 45 90" look-at="[gps-new-camera]" value="Hier wohnt\nInes Weinzierl." anchor="center" align="center"></a-text>
             <!-- Test bei Manuel -->
             <a-entity gps-new-entity-place="latitude: 48.870083; longitude: 8.643382" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
             <a-text gps-new-entity-place="latitude: 48.870083; longitude: 8.643382" scale="10 10 10" look-at="[gps-new-camera]" value="Hier wohnt\nManuel Klein." anchor="center" align="center"></a-text>
