@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahlplakate</title>
+    <link rel="stylesheet" type="text/css" href="../css/poster.css"/>
+</head>
+<body>
+    <header>
+        <h1>Wahlplakate</h1>
+    </header>
+
+    <div class="container">
+        <div class="carousel">
+            <img src="../images/poster1.png" alt="Wahlplakat 1" class="active">
+            <img src="../images/poster2.png" alt="Wahlplakat 2">
+            <img src="../images/poster3.png" alt="Wahlplakat 3">
+        </div>
+        <button class="arrow left">&#8249;</button>
+        <button class="arrow right">&#8250;</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Veranstalter. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script>
+        const images = document.querySelectorAll('.carousel img');
+        const leftArrow = document.querySelector('.arrow.left');
+        const rightArrow = document.querySelector('.arrow.right');
+        let currentIndex = 0;
+
+        function showImage(index) {
+            images.forEach((img, i) => {
+                img.classList.toggle('active', i === index);
+            });
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+            showImage(currentIndex);
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+            showImage(currentIndex);
+        });
+    </script>
+</body>
+</html>

@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Waldweihnacht 2024</title>
-        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
-        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
-    </head>
-    <body>
-        <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
-            <a-camera gps-new-camera='gpsMinDistance: 5' rotation-reader></a-camera>
-            <!-- Test bei Ines -->
-            <a-entity gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="1 1 1" material='color: blue' geometry='primitive: box'></a-entity>
-            <a-text gps-new-entity-place="latitude: 50.109037; longitude: 8.5416" scale="10 10 10" rotation="0 90 0" look-at="[gps-new-camera]" value="Hier wohnt\nInes Weinzierl." anchor="center" align="center"></a-text>
-            <!-- Test bei Manuel -->
-            <a-entity gps-new-entity-place="latitude: 48.870083; longitude: 8.643450" scale="1 1 1" material='color: red' geometry='primitive: box'></a-entity>
-            <a-text gps-new-entity-place="latitude: 48.870083; longitude: 8.643450" scale="10 10 10" rotation="0 270 0" look-at="[gps-new-camera]" value="Hier wohnt\nManuel Klein." anchor="center" align="center"></a-text>
-            <!-- Waldweihnacht 2024 -->
-            <a-text gps-new-entity-place="latitude: 50.127620; longitude: 8.675100" scale="10 10 10" rotation="0 270 0" look-at="[gps-new-camera]" value='(S)\nMatthaeus 2,1-2\nSucht "Kita"!' anchor="center" align="center"></a-text>
-            <a-text gps-new-entity-place="latitude: 50.126860; longitude: 8.669965" scale="10 10 10" rotation="0 120 0" look-at="[gps-new-camera]" value='(T)\nMatthaeus 2,3-4\nSucht "Knowledge"!' anchor="center" align="center"></a-text>
-            <a-text gps-new-entity-place="latitude: 50.127945; longitude: 8.666800" scale="10 10 10" rotation="0 0 0" look-at="[gps-new-camera]" value='(A)\nMatthaeus 2,5-8\nSucht "Kleinkind"!' anchor="center" align="center"></a-text>
-            <a-text gps-new-entity-place="latitude: 50.125298; longitude: 8.662424" scale="10 10 10" rotation="0 120 0" look-at="[gps-new-camera]" value='(L)\nMatthaeus 2,9-12\nSucht "Josef Stern"!' anchor="center" align="center"></a-text>
-            <a-text gps-new-entity-place="latitude: 50.123430; longitude: 8.667462" scale="10 10 10" rotation="0 90 0" look-at="[gps-new-camera]" value='(L)\nPhilipper 2,6-11\nZur City Church!' anchor="center" align="center"></a-text>
-            <a-text gps-new-entity-place="latitude: 50.130062; longitude: 8.675568" scale="10 10 10" rotation="0 90 0" look-at="[gps-new-camera]" value='Bonus\nMatthaeus 2,13-15' anchor="center" align="center"></a-text>
-        </a-scene>
-    </body>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inhaltsverzeichnis Parteitag</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+    <header>
+        <h1>Inhaltsverzeichnis Parteitag 2024</h1>
+    </header>
+
+    <div class="container">
+        <h2>Inhaltsverzeichnis</h2>
+        <ul class="table-of-contents">
+            <li><a href="./html/article.html">Zeitungsartikel</a></li>
+            <li><a href="#section2">Verhaltensregeln</a></li>
+            <li><a href="#section3">Wahlplakate</a></li>
+            <li><a href="#section4">Hochzeitsgeschenke</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Veranstalter. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
 </html>
