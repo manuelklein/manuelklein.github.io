@@ -1,0 +1,12 @@
+.account-list {
+    list-style: none;
+    padding: 0;
+}
+.account-list li {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #e6d5c3;
+    background: #f5ece4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}

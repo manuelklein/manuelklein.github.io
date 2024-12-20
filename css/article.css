@@ -1,49 +1,6 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    background-color: #faf3e0;
-    color: #333333;
-}
-header {
-    background-color: #d8c3a5;
-    color: #ffffff;
-    padding: 2rem 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.container {
-    width: 80%;
-    margin: 40px auto;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-h1, h2 {
-    color: #8e7d64;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-h2 {
-    font-size: 1.5rem;
-}
-p {
-    margin-bottom: 25px;
-    font-size: 1.1rem;
-    text-align: justify;
-}
 .author {
     font-style: italic;
     color: #5a5a5a;
-}
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #d8c3a5;
-    color: #ffffff;
-    margin-top: 40px;
 }
 .quote {
     font-size: 1.2rem;
@@ -52,11 +9,6 @@ footer {
     padding-left: 15px;
     margin: 20px 0;
     color: #555555;
-}
-.highlight {
-    background-color: #f5ece4;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 .image-container {
     margin: 20px 0;
