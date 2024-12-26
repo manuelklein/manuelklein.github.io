@@ -1,8 +1,8 @@
-.agenda-list {
+.list {
     list-style: none;
     padding: 0;
 }
-.agenda-list li {
+.list li {
     margin: 20px 0;
     padding: 15px;
     border: 1px solid #e6d5c3;
