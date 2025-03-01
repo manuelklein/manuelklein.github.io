@@ -1,0 +1,17 @@
+.table-of-contents {
+    list-style: none;
+    padding: 0;
+}
+.table-of-contents li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e6d5c3;
+    background: #f5ece4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.table-of-contents li a {
+    text-decoration: none;
+    color: #b08467;
+    font-weight: bold;
+}

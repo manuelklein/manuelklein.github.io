@@ -1,0 +1,17 @@
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+.image-container img {
+    background-color: #bababa;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.caption {
+    font-size: 0.9rem;
+    color: #777777;
+    margin-top: 10px;
+    font-style: italic;
+}

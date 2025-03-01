@@ -1,0 +1,40 @@
+header {
+    background-color: #f5ece4;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #d8c3a5;
+}
+header h1 {
+    font-family: "Old English Text MT", "Lucida Blackletter", fantasy;
+    font-size: 2.5rem;
+    color: #8e7d64;
+    margin: 0;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #8e7d64;
+    border-bottom: 2px solid #d8c3a5;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #faf3e0;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+.author {
+    font-style: italic;
+    color: #5a5a5a;
+}
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    border-left: 3px solid #8e7d64;
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #555555;
+}

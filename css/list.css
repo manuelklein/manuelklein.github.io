@@ -1,0 +1,26 @@
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list li {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #e6d5c3;
+    background: #f5ece4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.item {
+    margin-bottom: 10px;
+}
+.item-h1 {
+    font-weight: bold;
+    color: #8e7d64;
+}
+.item-h2 {
+    font-weight: bold;
+}
+.item-h3 {
+    font-style: italic;
+    color: #5a5a5a;
+}
